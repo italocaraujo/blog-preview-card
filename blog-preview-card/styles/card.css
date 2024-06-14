@@ -1,0 +1,70 @@
+.card {
+    width: 21em;
+    background-color: var(--branco);
+    border: solid 0.063em var(--preto);
+    border-radius: 1.25em;
+    padding: 1.5em;
+    box-shadow: 0.5em 0.5em var(--preto);
+    transition: box-shadow 1s, transform 1s;
+}
+
+.card:hover {
+    box-shadow: 1em 1em var(--preto);
+    transform: scale(1.1);
+}
+
+.img-card {
+    width: 21em;
+}
+
+.content {
+    margin: 1.5em 0;
+}
+
+.tag {
+    background-color: var(--amarelo);
+    width: 3.625em;
+    height: 1.313em;
+    padding: 0.25em 0.75em;
+    color: var(--preto);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25em;
+}
+
+#publish-date {
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-top: 0.75em;
+}
+
+#description {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--cinza);
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user img {
+    width: 2em;
+    border-radius: 100%;
+    margin-right: 0.75em;
+}
+
+/*RESPONSIVIDADE CELULAR*/
+@media (max-width: 410px) {
+    .card {
+        max-width: 60%;
+    }
+
+    .img-card {
+        max-width: 100%;
+    }
+}
+

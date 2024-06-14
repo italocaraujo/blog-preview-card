@@ -1,0 +1,45 @@
+@import url(card.css);
+
+:root {
+    --amarelo: #F4D04E;
+    --preto: #111111;
+    --branco: #FFFFFF;
+    --cinza: #7F7F7F;
+}
+
+body {
+    background-color: var(--amarelo);
+    font-family: "Figtree", sans-serif;
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h4 {
+    margin: 0;
+    font-weight: 800;
+    font-size: 0.875rem;
+}
+
+p {
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0.75em 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--preto);
+}
+
+a:hover {
+    color: var(--amarelo);
+}
